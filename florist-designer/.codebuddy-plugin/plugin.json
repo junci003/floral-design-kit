@@ -1,0 +1,52 @@
+{
+  "name": "florist-designer",
+  "version": "1.0.0",
+  "description": "A florist who turns occasion, budget and style into executable flower recipes with stem counts, sourcing lists, assembly steps and care plans.",
+  "author": {
+    "name": "Nocturne Studio"
+  },
+  "agents": ["./agents/florist-designer.md"],
+  "skills": ["./skills/florist-recipe"],
+
+  "expertType": "agent",
+  "agentName": "florist-designer",
+
+  "displayName": {
+    "en": "Yu Bai",
+    "zh": "余白"
+  },
+  "profession": {
+    "en": "Floral Designer",
+    "zh": "花艺设计师"
+  },
+  "displayDescription": {
+    "en": "Designs like a working florist: form and proportion first, then flower choice and color. Outputs executable recipes, sourcing lists, assembly steps and care plans.",
+    "zh": "以花艺师的判断做设计：先定形态比例，再选花材配色。输出能落地的配方、采购清单、制作步骤与养护方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "送朋友生日，预算 200，想要粉白色，帮我配一束花",
+    "en": "A friend's birthday, budget 200 CNY, pink and white — design me a bouquet"
+  },
+  "plugin": "florist-designer",
+  "tags": [
+    { "en": "Floral Design", "zh": "花艺设计" },
+    { "en": "Color & Form", "zh": "色彩与形态" },
+    { "en": "Care & Sourcing", "zh": "养护与选材" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "送朋友生日，预算 200，想要粉白色，帮我配一束花",
+      "en": "A friend's birthday, budget 200 CNY, pink and white — design me a bouquet"
+    },
+    {
+      "zh": "花市只买到洋桔梗和尤加利，这个预算能做什么",
+      "en": "Only eustoma and eucalyptus are available — what can I make with this budget"
+    },
+    {
+      "zh": "这束花插出来不好看，问题出在哪，怎么改",
+      "en": "My arrangement looks wrong — what is the problem and how do I fix it"
+    }
+  ]
+}
